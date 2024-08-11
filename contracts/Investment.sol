@@ -68,7 +68,7 @@ contract CarbonCreditInvestment is Ownable {
 
     emit InvestmentCreated(newInvestmentId, companyName, companyWallet, targetAmount);
     return newInvestmentId;
-}
+     }
 
 
     function addParticipatingCompany(uint256 investmentId, string memory companyName, address companyWallet) external onlyOwner {
